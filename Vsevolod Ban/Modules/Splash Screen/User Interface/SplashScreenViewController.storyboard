@@ -33,7 +33,7 @@
                         <viewLayoutGuide key="safeArea" id="QNY-uy-cZo"/>
                     </view>
                     <connections>
-                        <outlet property="cookpadLogo" destination="awV-sj-DWp" id="gl1-d7-q0e"/>
+                        <outlet property="logo" destination="awV-sj-DWp" id="gl1-d7-q0e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YsC-ku-S0l" userLabel="First Responder" sceneMemberID="firstResponder"/>

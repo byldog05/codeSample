@@ -12,14 +12,14 @@ class SplashScreenViewController: UIViewController, Identifierable {
 
     var navigator: SplashScreenWireframe?
     
-    @IBOutlet weak var cookpadLogo: UIImageView!
+    @IBOutlet weak var logo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         CATransaction.begin()
         
-        makePulsed(cookpadLogo) // Maybe create dat screen without XML(Storyboards)
+        makePulsed(logo) // Maybe create dat screen without XML
         CATransaction.commit()
     }
     
@@ -57,7 +57,7 @@ class SplashScreenViewController: UIViewController, Identifierable {
     
     private struct Constants {
         
-        static let animationRepeatCount: Float = 3
+        static let animationRepeatCount: Float = 1
     }
 }
 

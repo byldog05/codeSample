@@ -19,5 +19,6 @@ class MainWireframe: MainWireframeProtocol {
         let mainViewController = UIStoryboard.init(name: MainViewController.identifier, bundle: nil).instantiateViewController(withIdentifier: MainViewController.identifier) as? MainViewController
         self.mainViewController = mainViewController
         self.mainViewController?.navigator = self
+        self.mainViewController?.interactor = MainInteractor()
     }
 }

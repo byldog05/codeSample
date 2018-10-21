@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PhotoTableViewCell: UITableViewCell {
+class PhotoTableViewCell: UITableViewCell, Identifierable {
 
     @IBOutlet weak var thumb: UIImageView!
     

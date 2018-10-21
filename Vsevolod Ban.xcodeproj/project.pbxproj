@@ -27,6 +27,9 @@
 		95E80A89217CE5ED0070DA11 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A87217CE5ED0070DA11 /* PhotoTableViewCell.swift */; };
 		95E80A8A217CE5ED0070DA11 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A88217CE5ED0070DA11 /* PhotoTableViewCell.xib */; };
 		95E80A8C217CEA2B0070DA11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A8B217CEA2B0070DA11 /* Default-568h@2x.png */; };
+		95E80A8E217D09560070DA11 /* ImagesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A8D217D09560070DA11 /* ImagesProtocol.swift */; };
+		95E80A90217D0E890070DA11 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A8F217D0E890070DA11 /* Results.swift */; };
+		95E80A92217D103A0070DA11 /* URLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A91217D103A0070DA11 /* URLGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		95E80A87217CE5ED0070DA11 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		95E80A88217CE5ED0070DA11 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
 		95E80A8B217CEA2B0070DA11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		95E80A8D217D09560070DA11 /* ImagesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesProtocol.swift; sourceTree = "<group>"; };
+		95E80A8F217D0E890070DA11 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		95E80A91217D103A0070DA11 /* URLGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +93,6 @@
 		95E80A34217CCC1A0070DA11 = {
 			isa = PBXGroup;
 			children = (
-				95E80A8B217CEA2B0070DA11 /* Default-568h@2x.png */,
 				95E80A3F217CCC1A0070DA11 /* Vsevolod Ban */,
 				95E80A54217CCC1C0070DA11 /* Vsevolod BanTests */,
 				95E80A3E217CCC1A0070DA11 /* Products */,
@@ -111,6 +116,7 @@
 				95E80A64217CCD970070DA11 /* Supporting Files */,
 				95E80A40217CCC1A0070DA11 /* AppDelegate.swift */,
 				95E80A84217CDD5F0070DA11 /* RootWIreframe.swift */,
+				95E80A8B217CEA2B0070DA11 /* Default-568h@2x.png */,
 			);
 			path = "Vsevolod Ban";
 			sourceTree = "<group>";
@@ -221,6 +227,9 @@
 			children = (
 				95E80A7E217CD0490070DA11 /* Identifierable.swift */,
 				95E80A82217CDC4C0070DA11 /* UIWindow.swift */,
+				95E80A8D217D09560070DA11 /* ImagesProtocol.swift */,
+				95E80A8F217D0E890070DA11 /* Results.swift */,
+				95E80A91217D103A0070DA11 /* URLGenerator.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -342,7 +351,10 @@
 				95E80A6D217CCE520070DA11 /* MainViewController.swift in Sources */,
 				95E80A43217CCC1A0070DA11 /* SplashScreenViewController.swift in Sources */,
 				95E80A76217CCEBC0070DA11 /* MainWireframeProtocol.swift in Sources */,
+				95E80A90217D0E890070DA11 /* Results.swift in Sources */,
 				95E80A85217CDD5F0070DA11 /* RootWIreframe.swift in Sources */,
+				95E80A8E217D09560070DA11 /* ImagesProtocol.swift in Sources */,
+				95E80A92217D103A0070DA11 /* URLGenerator.swift in Sources */,
 				95E80A83217CDC4C0070DA11 /* UIWindow.swift in Sources */,
 				95E80A7A217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift in Sources */,
 				95E80A78217CCED00070DA11 /* SplashScreenWireframe.swift in Sources */,
