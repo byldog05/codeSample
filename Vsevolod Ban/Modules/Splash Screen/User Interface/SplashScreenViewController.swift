@@ -57,7 +57,7 @@ class SplashScreenViewController: UIViewController, Identifierable {
     
     private struct Constants {
         
-        static let animationRepeatCount: Float = 1
+        static let animationRepeatCount: Float = 3
     }
 }
 
