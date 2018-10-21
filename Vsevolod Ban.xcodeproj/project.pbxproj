@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95E80A41217CCC1A0070DA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A40217CCC1A0070DA11 /* AppDelegate.swift */; };
+		95E80A43217CCC1A0070DA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A42217CCC1A0070DA11 /* ViewController.swift */; };
+		95E80A46217CCC1A0070DA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A44217CCC1A0070DA11 /* Main.storyboard */; };
+		95E80A48217CCC1B0070DA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A47217CCC1B0070DA11 /* Assets.xcassets */; };
+		95E80A4B217CCC1B0070DA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */; };
+		95E80A56217CCC1C0070DA11 /* Vsevolod_BanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A55217CCC1C0070DA11 /* Vsevolod_BanTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E80A52217CCC1C0070DA11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E80A35217CCC1A0070DA11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E80A3C217CCC1A0070DA11;
+			remoteInfo = "Vsevolod Ban";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95E80A3D217CCC1A0070DA11 /* Vsevolod Ban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vsevolod Ban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E80A40217CCC1A0070DA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95E80A42217CCC1A0070DA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95E80A45217CCC1A0070DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E80A47217CCC1B0070DA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E80A4A217CCC1B0070DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E80A4C217CCC1B0070DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E80A51217CCC1C0070DA11 /* Vsevolod BanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vsevolod BanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E80A55217CCC1C0070DA11 /* Vsevolod_BanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vsevolod_BanTests.swift; sourceTree = "<group>"; };
+		95E80A57217CCC1C0070DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E80A3A217CCC1A0070DA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E80A4E217CCC1C0070DA11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E80A34217CCC1A0070DA11 = {
+			isa = PBXGroup;
+			children = (
+				95E80A3F217CCC1A0070DA11 /* Vsevolod Ban */,
+				95E80A54217CCC1C0070DA11 /* Vsevolod BanTests */,
+				95E80A3E217CCC1A0070DA11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E80A3E217CCC1A0070DA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A3D217CCC1A0070DA11 /* Vsevolod Ban.app */,
+				95E80A51217CCC1C0070DA11 /* Vsevolod BanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E80A3F217CCC1A0070DA11 /* Vsevolod Ban */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A40217CCC1A0070DA11 /* AppDelegate.swift */,
+				95E80A42217CCC1A0070DA11 /* ViewController.swift */,
+				95E80A44217CCC1A0070DA11 /* Main.storyboard */,
+				95E80A47217CCC1B0070DA11 /* Assets.xcassets */,
+				95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */,
+				95E80A4C217CCC1B0070DA11 /* Info.plist */,
+			);
+			path = "Vsevolod Ban";
+			sourceTree = "<group>";
+		};
+		95E80A54217CCC1C0070DA11 /* Vsevolod BanTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A55217CCC1C0070DA11 /* Vsevolod_BanTests.swift */,
+				95E80A57217CCC1C0070DA11 /* Info.plist */,
+			);
+			path = "Vsevolod BanTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E80A3C217CCC1A0070DA11 /* Vsevolod Ban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E80A5A217CCC1C0070DA11 /* Build configuration list for PBXNativeTarget "Vsevolod Ban" */;
+			buildPhases = (
+				95E80A39217CCC1A0070DA11 /* Sources */,
+				95E80A3A217CCC1A0070DA11 /* Frameworks */,
+				95E80A3B217CCC1A0070DA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vsevolod Ban";
+			productName = "Vsevolod Ban";
+			productReference = 95E80A3D217CCC1A0070DA11 /* Vsevolod Ban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E80A50217CCC1C0070DA11 /* Vsevolod BanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E80A5D217CCC1C0070DA11 /* Build configuration list for PBXNativeTarget "Vsevolod BanTests" */;
+			buildPhases = (
+				95E80A4D217CCC1C0070DA11 /* Sources */,
+				95E80A4E217CCC1C0070DA11 /* Frameworks */,
+				95E80A4F217CCC1C0070DA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E80A53217CCC1C0070DA11 /* PBXTargetDependency */,
+			);
+			name = "Vsevolod BanTests";
+			productName = "Vsevolod BanTests";
+			productReference = 95E80A51217CCC1C0070DA11 /* Vsevolod BanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E80A35217CCC1A0070DA11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vsevolod Ban";
+				TargetAttributes = {
+					95E80A3C217CCC1A0070DA11 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					95E80A50217CCC1C0070DA11 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 95E80A3C217CCC1A0070DA11;
+					};
+				};
+			};
+			buildConfigurationList = 95E80A38217CCC1A0070DA11 /* Build configuration list for PBXProject "Vsevolod Ban" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E80A34217CCC1A0070DA11;
+			productRefGroup = 95E80A3E217CCC1A0070DA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E80A3C217CCC1A0070DA11 /* Vsevolod Ban */,
+				95E80A50217CCC1C0070DA11 /* Vsevolod BanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E80A3B217CCC1A0070DA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E80A4B217CCC1B0070DA11 /* LaunchScreen.storyboard in Resources */,
+				95E80A48217CCC1B0070DA11 /* Assets.xcassets in Resources */,
+				95E80A46217CCC1A0070DA11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E80A4F217CCC1C0070DA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E80A39217CCC1A0070DA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E80A43217CCC1A0070DA11 /* ViewController.swift in Sources */,
+				95E80A41217CCC1A0070DA11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E80A4D217CCC1C0070DA11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E80A56217CCC1C0070DA11 /* Vsevolod_BanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E80A53217CCC1C0070DA11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E80A3C217CCC1A0070DA11 /* Vsevolod Ban */;
+			targetProxy = 95E80A52217CCC1C0070DA11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95E80A44217CCC1A0070DA11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E80A45217CCC1A0070DA11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E80A4A217CCC1B0070DA11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E80A58217CCC1C0070DA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95E80A59217CCC1C0070DA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E80A5B217CCC1C0070DA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M679ZJ5M;
+				INFOPLIST_FILE = "Vsevolod Ban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-Ban";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95E80A5C217CCC1C0070DA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M679ZJ5M;
+				INFOPLIST_FILE = "Vsevolod Ban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-Ban";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95E80A5E217CCC1C0070DA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M679ZJ5M;
+				INFOPLIST_FILE = "Vsevolod BanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-BanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vsevolod Ban.app/Vsevolod Ban";
+			};
+			name = Debug;
+		};
+		95E80A5F217CCC1C0070DA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4M679ZJ5M;
+				INFOPLIST_FILE = "Vsevolod BanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-BanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vsevolod Ban.app/Vsevolod Ban";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E80A38217CCC1A0070DA11 /* Build configuration list for PBXProject "Vsevolod Ban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E80A58217CCC1C0070DA11 /* Debug */,
+				95E80A59217CCC1C0070DA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E80A5A217CCC1C0070DA11 /* Build configuration list for PBXNativeTarget "Vsevolod Ban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E80A5B217CCC1C0070DA11 /* Debug */,
+				95E80A5C217CCC1C0070DA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E80A5D217CCC1C0070DA11 /* Build configuration list for PBXNativeTarget "Vsevolod BanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E80A5E217CCC1C0070DA11 /* Debug */,
+				95E80A5F217CCC1C0070DA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E80A35217CCC1A0070DA11 /* Project object */;
+}
