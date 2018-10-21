@@ -8,11 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		95E80A41217CCC1A0070DA11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A40217CCC1A0070DA11 /* AppDelegate.swift */; };
-		95E80A43217CCC1A0070DA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A42217CCC1A0070DA11 /* ViewController.swift */; };
-		95E80A46217CCC1A0070DA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A44217CCC1A0070DA11 /* Main.storyboard */; };
+		95E80A43217CCC1A0070DA11 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A42217CCC1A0070DA11 /* SplashScreenViewController.swift */; };
 		95E80A48217CCC1B0070DA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A47217CCC1B0070DA11 /* Assets.xcassets */; };
 		95E80A4B217CCC1B0070DA11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */; };
 		95E80A56217CCC1C0070DA11 /* Vsevolod_BanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A55217CCC1C0070DA11 /* Vsevolod_BanTests.swift */; };
+		95E80A6D217CCE520070DA11 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A6C217CCE520070DA11 /* MainViewController.swift */; };
+		95E80A70217CCE8D0070DA11 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A6F217CCE8D0070DA11 /* MainInteractor.swift */; };
+		95E80A72217CCEA00070DA11 /* MainINteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A71217CCEA00070DA11 /* MainINteractorProtocol.swift */; };
+		95E80A74217CCEAE0070DA11 /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A73217CCEAE0070DA11 /* MainWireframe.swift */; };
+		95E80A76217CCEBC0070DA11 /* MainWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A75217CCEBC0070DA11 /* MainWireframeProtocol.swift */; };
+		95E80A78217CCED00070DA11 /* SplashScreenWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A77217CCED00070DA11 /* SplashScreenWireframe.swift */; };
+		95E80A7A217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A79217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift */; };
+		95E80A7C217CCF0D0070DA11 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A7B217CCF0D0070DA11 /* MainViewController.storyboard */; };
+		95E80A7F217CD0490070DA11 /* Identifierable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A7E217CD0490070DA11 /* Identifierable.swift */; };
+		95E80A81217CD0870070DA11 /* SplashScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A80217CD0870070DA11 /* SplashScreenViewController.storyboard */; };
+		95E80A83217CDC4C0070DA11 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A82217CDC4C0070DA11 /* UIWindow.swift */; };
+		95E80A85217CDD5F0070DA11 /* RootWIreframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A84217CDD5F0070DA11 /* RootWIreframe.swift */; };
+		95E80A89217CE5ED0070DA11 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E80A87217CE5ED0070DA11 /* PhotoTableViewCell.swift */; };
+		95E80A8A217CE5ED0070DA11 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E80A88217CE5ED0070DA11 /* PhotoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +41,27 @@
 /* Begin PBXFileReference section */
 		95E80A3D217CCC1A0070DA11 /* Vsevolod Ban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vsevolod Ban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E80A40217CCC1A0070DA11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95E80A42217CCC1A0070DA11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95E80A45217CCC1A0070DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E80A42217CCC1A0070DA11 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		95E80A47217CCC1B0070DA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E80A4A217CCC1B0070DA11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E80A4C217CCC1B0070DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95E80A51217CCC1C0070DA11 /* Vsevolod BanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vsevolod BanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E80A55217CCC1C0070DA11 /* Vsevolod_BanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vsevolod_BanTests.swift; sourceTree = "<group>"; };
 		95E80A57217CCC1C0070DA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E80A6C217CCE520070DA11 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		95E80A6F217CCE8D0070DA11 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		95E80A71217CCEA00070DA11 /* MainINteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainINteractorProtocol.swift; sourceTree = "<group>"; };
+		95E80A73217CCEAE0070DA11 /* MainWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		95E80A75217CCEBC0070DA11 /* MainWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWireframeProtocol.swift; sourceTree = "<group>"; };
+		95E80A77217CCED00070DA11 /* SplashScreenWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenWireframe.swift; sourceTree = "<group>"; };
+		95E80A79217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenWireframeProtocol.swift; sourceTree = "<group>"; };
+		95E80A7B217CCF0D0070DA11 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		95E80A7E217CD0490070DA11 /* Identifierable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifierable.swift; sourceTree = "<group>"; };
+		95E80A80217CD0870070DA11 /* SplashScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreenViewController.storyboard; sourceTree = "<group>"; };
+		95E80A82217CDC4C0070DA11 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		95E80A84217CDD5F0070DA11 /* RootWIreframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWIreframe.swift; sourceTree = "<group>"; };
+		95E80A87217CE5ED0070DA11 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		95E80A88217CE5ED0070DA11 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +103,11 @@
 		95E80A3F217CCC1A0070DA11 /* Vsevolod Ban */ = {
 			isa = PBXGroup;
 			children = (
+				95E80A65217CCDAD0070DA11 /* Modules */,
+				95E80A63217CCD910070DA11 /* Common */,
+				95E80A64217CCD970070DA11 /* Supporting Files */,
 				95E80A40217CCC1A0070DA11 /* AppDelegate.swift */,
-				95E80A42217CCC1A0070DA11 /* ViewController.swift */,
-				95E80A44217CCC1A0070DA11 /* Main.storyboard */,
-				95E80A47217CCC1B0070DA11 /* Assets.xcassets */,
-				95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */,
-				95E80A4C217CCC1B0070DA11 /* Info.plist */,
+				95E80A84217CDD5F0070DA11 /* RootWIreframe.swift */,
 			);
 			path = "Vsevolod Ban";
 			sourceTree = "<group>";
@@ -94,6 +119,116 @@
 				95E80A57217CCC1C0070DA11 /* Info.plist */,
 			);
 			path = "Vsevolod BanTests";
+			sourceTree = "<group>";
+		};
+		95E80A60217CCD5D0070DA11 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A68217CCDF70070DA11 /* Routing */,
+				95E80A66217CCDE90070DA11 /* User Interface */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		95E80A62217CCD7A0070DA11 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A6B217CCE310070DA11 /* Routing */,
+				95E80A6A217CCE1C0070DA11 /* Business Logic */,
+				95E80A69217CCE140070DA11 /* User Interface */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		95E80A63217CCD910070DA11 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A7D217CD01B0070DA11 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		95E80A64217CCD970070DA11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */,
+				95E80A47217CCC1B0070DA11 /* Assets.xcassets */,
+				95E80A4C217CCC1B0070DA11 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95E80A65217CCDAD0070DA11 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A60217CCD5D0070DA11 /* Splash Screen */,
+				95E80A62217CCD7A0070DA11 /* Main Screen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		95E80A66217CCDE90070DA11 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A42217CCC1A0070DA11 /* SplashScreenViewController.swift */,
+				95E80A80217CD0870070DA11 /* SplashScreenViewController.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		95E80A68217CCDF70070DA11 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A77217CCED00070DA11 /* SplashScreenWireframe.swift */,
+				95E80A79217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		95E80A69217CCE140070DA11 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A86217CE5CE0070DA11 /* Cells */,
+				95E80A6C217CCE520070DA11 /* MainViewController.swift */,
+				95E80A7B217CCF0D0070DA11 /* MainViewController.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		95E80A6A217CCE1C0070DA11 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A6F217CCE8D0070DA11 /* MainInteractor.swift */,
+				95E80A71217CCEA00070DA11 /* MainINteractorProtocol.swift */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		95E80A6B217CCE310070DA11 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A73217CCEAE0070DA11 /* MainWireframe.swift */,
+				95E80A75217CCEBC0070DA11 /* MainWireframeProtocol.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		95E80A7D217CD01B0070DA11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A7E217CD0490070DA11 /* Identifierable.swift */,
+				95E80A82217CDC4C0070DA11 /* UIWindow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95E80A86217CE5CE0070DA11 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				95E80A87217CE5ED0070DA11 /* PhotoTableViewCell.swift */,
+				95E80A88217CE5ED0070DA11 /* PhotoTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +314,9 @@
 			files = (
 				95E80A4B217CCC1B0070DA11 /* LaunchScreen.storyboard in Resources */,
 				95E80A48217CCC1B0070DA11 /* Assets.xcassets in Resources */,
-				95E80A46217CCC1A0070DA11 /* Main.storyboard in Resources */,
+				95E80A8A217CE5ED0070DA11 /* PhotoTableViewCell.xib in Resources */,
+				95E80A81217CD0870070DA11 /* SplashScreenViewController.storyboard in Resources */,
+				95E80A7C217CCF0D0070DA11 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +334,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E80A43217CCC1A0070DA11 /* ViewController.swift in Sources */,
+				95E80A7F217CD0490070DA11 /* Identifierable.swift in Sources */,
+				95E80A6D217CCE520070DA11 /* MainViewController.swift in Sources */,
+				95E80A43217CCC1A0070DA11 /* SplashScreenViewController.swift in Sources */,
+				95E80A76217CCEBC0070DA11 /* MainWireframeProtocol.swift in Sources */,
+				95E80A85217CDD5F0070DA11 /* RootWIreframe.swift in Sources */,
+				95E80A83217CDC4C0070DA11 /* UIWindow.swift in Sources */,
+				95E80A7A217CCEE10070DA11 /* SplashScreenWireframeProtocol.swift in Sources */,
+				95E80A78217CCED00070DA11 /* SplashScreenWireframe.swift in Sources */,
 				95E80A41217CCC1A0070DA11 /* AppDelegate.swift in Sources */,
+				95E80A74217CCEAE0070DA11 /* MainWireframe.swift in Sources */,
+				95E80A89217CE5ED0070DA11 /* PhotoTableViewCell.swift in Sources */,
+				95E80A70217CCE8D0070DA11 /* MainInteractor.swift in Sources */,
+				95E80A72217CCEA00070DA11 /* MainINteractorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		95E80A44217CCC1A0070DA11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95E80A45217CCC1A0070DA11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		95E80A49217CCC1B0070DA11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4M679ZJ5M;
-				INFOPLIST_FILE = "Vsevolod Ban/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vsevolod BanTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-Ban";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4M679ZJ5M;
-				INFOPLIST_FILE = "Vsevolod Ban/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vsevolod BanTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vb.Vsevolod-Ban";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

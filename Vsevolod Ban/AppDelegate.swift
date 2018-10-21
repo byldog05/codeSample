@@ -12,11 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var rootWireframe = RootWireframe()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        return self.rootWireframe.application(application, didFinishLaunchingWithOptions: launchOptions as [NSObject : AnyObject]?, window: self.window!)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

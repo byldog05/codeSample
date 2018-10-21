@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="NtZ-5o-rks">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pbd-0r-VfT" customClass="SplashScreenViewController" customModule="Vsevolod_Ban" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Agf-BS-keU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cookpadLogo" translatesAutoresizingMaskIntoConstraints="NO" id="awV-sj-DWp">
+                                <rect key="frame" x="114.5" y="244.5" width="146" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="SlC-XX-81V"/>
+                                    <constraint firstAttribute="height" constant="178" id="miT-PY-62j"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="awV-sj-DWp" firstAttribute="centerY" secondItem="Agf-BS-keU" secondAttribute="centerY" id="9Gf-hx-qAG"/>
+                            <constraint firstItem="awV-sj-DWp" firstAttribute="centerX" secondItem="Agf-BS-keU" secondAttribute="centerX" id="JXc-Qb-vd1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QNY-uy-cZo"/>
+                    </view>
+                    <connections>
+                        <outlet property="cookpadLogo" destination="awV-sj-DWp" id="gl1-d7-q0e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YsC-ku-S0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="40.929535232383813"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cookpadLogo" width="304" height="369"/>
+    </resources>
+</document>
